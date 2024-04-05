@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+html {
+    transform: rotate(1deg);
+    font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+thead th:nth-child(even) {
+    background-color: #b6b6b6;
+}
+thead tr th:nth-child(1) {
+    border-top-left-radius: 1rem;
+}
+thead tr th:nth-last-child(1) {
+    border-top-right-radius: 1rem;
+}
+td, th {
+    padding: 1rem .5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+thead tr th {
+    background-color: #ccc;
+}
+tbody th {
+    background-color: darkgray;
+    border-bottom: 3px solid #ccc;
+    border-left: 3px solid #ccc;
+    font-size: .8rem;
+}
+tbody td{
+    border: 1px solid #ccc;
+}
+tbody tr:nth-child(even) {
+    background-color: #ececec;
+}
+
+tbody tr:nth-child(1) th {
+    border-left: 3px solid gold;
+}
+tbody tr:nth-child(2) th {
+    border-left: 3px solid burlywood;
+}
+tbody tr:nth-child(3) th {
+    border-left: 3px solid blue;
+}
+tbody tr:nth-child(4) th {
+    border-left: 3px solid darkblue;
+}
+tbody tr:nth-child(5) th {
+    border-left: 3px solid red;
+}
+tbody tr:nth-child(6) th {
+    border-left: 3px solid navy;
+}
+tbody tr:nth-child(7) th {
+    border-left: 3px solid brown;
+}
+tbody tr:nth-child(8) th {
+    border-left: 3px solid darkred;
+}
